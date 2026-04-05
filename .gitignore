@@ -1,0 +1,37 @@
+# ─── Compiled Java class files ───────────────────────────────────────
+*.class
+
+# ─── Maven build output folder ───────────────────────────────────────
+target/
+
+# ─── Maven wrapper (if not using) ────────────────────────────────────
+.mvn/wrapper/maven-wrapper.jar
+
+# ─── VS Code settings ────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── IntelliJ / IDE files ─────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+
+# ─── macOS system files ───────────────────────────────────────────────
+.DS_Store
+
+# ─── Windows system files ─────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+
+# ─── Log files ────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── JAR / WAR / EAR (built artifacts, not source) ───────────────────
+*.jar
+*.war
+*.ear
+
+# ─── Environment / secret files (never commit these) ─────────────────
+.env
+*.properties.local
